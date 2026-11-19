@@ -1,8 +1,9 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { BsModalRef } from 'ngx-bootstrap';
+import { BsModalRef } from 'ngx-bootstrap/modal';
  
 @Component({
   selector: 'app-community-view-post',
+  standalone: false,
   templateUrl: './community-view-post.component.html',
   styleUrls: ['./community-view-post.component.scss']
 })

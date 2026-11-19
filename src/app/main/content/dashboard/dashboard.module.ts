@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { NgxMasonryModule } from 'ngx-masonry';
 
 import { SharedModule } from '@shared/shared.module';
 import { DashboardComponent } from './dashboard.component';
 
-const routes = [
+const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent}
 ];
 

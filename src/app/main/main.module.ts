@@ -8,14 +8,15 @@ import { MainComponent } from './main.component';
 import { ContentModule } from './content/content.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { GoTopComponent } from './go-top/go-top.component';
+import { GoTopModule } from './go-top/go-top.module';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     ContentModule,
-    RouterModule
+    RouterModule,
+    GoTopModule
   ],
   exports: [
     MainComponent
@@ -23,8 +24,7 @@ import { GoTopComponent } from './go-top/go-top.component';
   declarations: [
     MainComponent,
     HeaderComponent,
-    FooterComponent,
-    GoTopComponent
+    FooterComponent
   ]
 })
 export class MainModule { }

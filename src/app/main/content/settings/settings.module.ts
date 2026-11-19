@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { SettingsComponent } from './settings.component';
 import { AccountComponent } from './account/account.component';
 import { PasswordComponent } from './password/password.component';
 import { NotificationComponent } from './notification/notification.component';
 
-const routes = [
+const routes: Routes = [
   {
     path: 'settings',
     component: SettingsComponent,

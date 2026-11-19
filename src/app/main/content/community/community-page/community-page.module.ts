@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { NgxMasonryModule } from 'ngx-masonry';
-import { TagCloudModule } from 'angular-tag-cloud-module';
+import { TagCloudComponent } from 'angular-tag-cloud-module';
 
 //**************************************************************************************************************************** */
 import { SharedModule } from '@shared/shared.module';
@@ -19,7 +19,7 @@ import { CommunityHomeComponent } from './community-home/community-home.componen
 import { CommunityMeComponent } from './community-me/community-me.component';
 //**************************************************************************************************************************** */
 
-const routes = [
+const routes: Routes = [
   {
     path: 'community-page',
     component: CommunityPageComponent,
@@ -40,11 +40,7 @@ const routes = [
     SharedModule,
     RouterModule.forChild(routes),
     NgxMasonryModule,
-    TagCloudModule
-  ],
-  entryComponents: [
-    CommunityCreatePostComponent,
-    CommunityCreateEventComponent
+    TagCloudComponent
   ],
   declarations: [
     CommunityPageComponent,

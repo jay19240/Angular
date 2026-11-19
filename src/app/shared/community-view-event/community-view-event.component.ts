@@ -1,9 +1,10 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { BsModalRef } from 'ngx-bootstrap';
+import { BsModalRef } from 'ngx-bootstrap/modal';
 import * as L from 'leaflet';
 
 @Component({
   selector: 'app-community-view-event',
+  standalone: false,
   templateUrl: './community-view-event.component.html',
   styleUrls: ['./community-view-event.component.scss']
 })

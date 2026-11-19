@@ -14,9 +14,6 @@ import { CommunityViewEventComponent } from './community-view-event.component';
   ],
   exports: [
     CommunityViewEventComponent
-  ],
-  entryComponents: [
-    CommunityViewEventComponent
-  ],
+  ]
 })
 export class CommunityViewEventModule { }

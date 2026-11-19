@@ -3,6 +3,7 @@ import { routerTransition } from '../../animations/animation-route';
 
 @Component({
   selector: 'app-content',
+  standalone: false,
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.scss'],
   animations: [ routerTransition ]

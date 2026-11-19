@@ -3,6 +3,7 @@ import { NgxMasonryOptions } from 'ngx-masonry';
 
 @Component({
   selector: 'app-my-community-list',
+  standalone: false,
   templateUrl: './my-community-list.component.html',
   styleUrls: ['./my-community-list.component.scss']
 })

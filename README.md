@@ -2,11 +2,18 @@
 
 A boilerplate based on Angular for frontent web project !
 
-## SEO
+## Development
 
-https://coursetro.com/posts/code/155/Angular-6-SEO-Tutorial-from-Scratch---It's-Super-Simple-Now!
-npm run build:prod
-npm run server
+Requires Node.js `^22.22.3`, `^24.15.0` or `>=26`.
+
+npm install
+npm start
+
+## Build
+
+npm run build
+
+The application is generated in `dist/browser` (served by the Docker/nginx image).
 
 ## Themes
 

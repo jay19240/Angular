@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxMasonryOptions } from 'ngx-masonry';
 import { BsModalService } from 'ngx-bootstrap/modal';
-import { BsModalRef } from 'ngx-bootstrap/modal/bs-modal-ref.service';
+import { BsModalRef } from 'ngx-bootstrap/modal';
 
 import { CommunityCreatePostComponent } from './community-create-post/community-create-post.component';
 
 @Component({
   selector: 'app-community-posts',
+  standalone: false,
   templateUrl: './community-posts.component.html',
   styleUrls: ['./community-posts.component.scss']
 })

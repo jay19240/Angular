@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { BsModalService } from 'ngx-bootstrap/modal';
-import { BsModalRef } from 'ngx-bootstrap';
+import { BsModalRef } from 'ngx-bootstrap/modal';
 
 import { CommunityViewPostComponent } from '@shared/community-view-post/community-view-post.component';
 
 @Component({
   selector: 'app-community-card-post',
+  standalone: false,
   templateUrl: './community-card-post.component.html',
   styleUrls: ['./community-card-post.component.scss']
 })
