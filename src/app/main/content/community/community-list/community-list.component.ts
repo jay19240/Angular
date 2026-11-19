@@ -4,6 +4,7 @@ import { NgxMasonryOptions } from 'ngx-masonry';
 
 @Component({
   selector: 'app-search',
+  standalone: false,
   templateUrl: './community-list.component.html',
   styleUrls: ['./community-list.component.scss'],
   encapsulation: ViewEncapsulation.None,
@@ -55,6 +56,7 @@ export class CommunityListComponent implements OnInit {
 
   public selectedCity;
   public selectedRadius = '30 km';
+  public peopleLoading: boolean;
 
   public myOptions: NgxMasonryOptions = {
     percentPosition: true

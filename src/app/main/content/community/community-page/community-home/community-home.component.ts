@@ -3,6 +3,7 @@ import { CloudData, CloudOptions } from 'angular-tag-cloud-module';
 
 @Component({
   selector: 'app-community-home',
+  standalone: false,
   templateUrl: './community-home.component.html',
   styleUrls: ['./community-home.component.scss']
 })

@@ -3,6 +3,7 @@ import { NgxMasonryOptions } from 'ngx-masonry';
 
 @Component({
   selector: 'app-community-events',
+  standalone: false,
   templateUrl: './community-events.component.html',
   styleUrls: ['./community-events.component.scss']
 })

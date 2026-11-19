@@ -3,6 +3,7 @@ import { HostListener } from "@angular/core";
 
 @Component({
   selector: 'app-go-top',
+  standalone: false,
   templateUrl: './go-top.component.html',
   styleUrls: ['./go-top.component.scss']
 })

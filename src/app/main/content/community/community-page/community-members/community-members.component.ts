@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-community-members',
+  standalone: false,
   templateUrl: './community-members.component.html',
   styleUrls: ['./community-members.component.scss']
 })

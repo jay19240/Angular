@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-community-page',
+  standalone: false,
   templateUrl: './community-page.component.html',
   styleUrls: ['./community-page.component.scss']
 })

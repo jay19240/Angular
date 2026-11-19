@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-community-card',
+  standalone: false,
   templateUrl: './community-card.component.html',
   styleUrls: ['./community-card.component.scss']
 })

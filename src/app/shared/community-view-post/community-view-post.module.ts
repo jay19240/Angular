@@ -14,9 +14,6 @@ import { CommunityViewPostComponent } from './community-view-post.component';
   ],
   exports: [
     CommunityViewPostComponent
-  ],
-  entryComponents: [
-    CommunityViewPostComponent
   ]
 })
 export class CommunityViewPostModule { }

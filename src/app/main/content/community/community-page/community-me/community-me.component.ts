@@ -4,10 +4,13 @@ import { BsModalService } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-community-me',
+  standalone: false,
   templateUrl: './community-me.component.html',
   styleUrls: ['./community-me.component.scss']
 })
 export class CommunityMeComponent implements OnInit {
+  public radius: string[];
+  public selectedRadius: string;
   public myOptions: NgxMasonryOptions = {
     percentPosition: true
   };

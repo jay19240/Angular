@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 import { SharedModule } from '@shared/shared.module';
 import { NotificationComponent } from './notification.component';
 
-const routes = [
+const routes: Routes = [
   {
     path: 'notification',
     component: NotificationComponent,

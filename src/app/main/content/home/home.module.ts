@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { SharedModule } from '@shared/shared.module';
 import { HomeComponent } from './home.component';
 
-const routes = [
+const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
